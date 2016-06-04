@@ -3,9 +3,10 @@ body {
 }
 
 h1{
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #ccc;
-  weight:300;
+  weight:100;
+  font-size: 30px;
 }
 .content article {
   padding: 100px 0;
@@ -15,7 +16,7 @@ h1{
   background-color:#E80C36;
 }
 .featuretwo{
-  background-color: #4031D1;
+  background-color: #20d2bb;
   height: 700px;
   width: 100%;
 }
