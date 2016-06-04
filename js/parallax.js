@@ -9,7 +9,7 @@ $(window).scroll(function(){
   });
 
   $('.back').css({
-    'transform' : 'translate(0px, -'+ wScroll/19 + '%)'
+    'transform' : 'translate(-'+wScroll/100+'%, -'+ wScroll/19 + '%)'
   });
 
 });

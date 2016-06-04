@@ -14,6 +14,11 @@ h1{
   text-align: center;
   background-color:#E80C36;
 }
+.featuretwo{
+  background-color: #4031D1;
+  height: 700px;
+  width: 100%;
+}
 #scrollDiv {
   height: 2000px;
 }
