@@ -16,3 +16,29 @@ h1{
 #scrollDiv {
   height: 2000px;
 }
+.box{
+  width: 100%;
+  position: relative;
+  height: 600px;
+  background-image:url("../assets/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size:auto, 600px;
+  background-position: top center;
+  background-attachment: fixed;
+
+}
+
+.logo{
+  position: absolute;
+  height:100px;
+  width: 100%;
+  background-image: url("../assets/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -50px;
+  top: 50%;
+
+
+
+
+}
