@@ -20,25 +20,51 @@ h1{
   width: 100%;
   position: relative;
   height: 600px;
-  background-image:url("../assets/fondo.jpg");
+  background-color: #6E1C67;
   background-repeat: no-repeat;
   background-size:auto, 600px;
   background-position: top center;
   background-attachment: fixed;
+  overflow: hidden;
 
 }
 
 .logo{
   position: absolute;
-  height:100px;
+  height:375px;
   width: 100%;
   background-image: url("../assets/logo.png");
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -50px;
+  margin-top: -280px;
   top: 50%;
+}
 
 
+.frontal{
+  width: 870px;
+  height: 720px;
+  margin-top: 10px;
+  background-image: url("../assets/nexus.png");
+  background-repeat: no-repeat;
+  background-position: right, bottom;
+  position: relative;
+  background-size: contain;
+  left:30%;
+
+}
 
 
+.back{
+  position: absolute;;
+  height: 870px;
+  width: 720px;
+  margin-top: 10px;
+background-position: right, bottom;
+  //background-color: red;
+  background-image: url("../assets/iphone6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 350px;
+  left:250px;
 }
