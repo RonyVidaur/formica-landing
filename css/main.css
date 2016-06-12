@@ -1,81 +1,113 @@
+  @font-face {
+    font-family: Ostrich;
+    src: url(../assets/fonts/ostrich-regular.ttf);
+  }
+  @font-face {
+      font-family: Sofia;
+      src: url(../assets/fonts/Sofia-Regular.otf);
+  }
+  @font-face {
+    font-family: ostrich-strong;
+    src: url(../assets/fonts/OstrichSans-Black.otf);
+  }
+  h1{
+    font-family: 'Ostrich';
+    color: #ccc;
+    weight: 100;
+    font-size: 60px;
+  }
 
-h1{
-  font-family: 'Open Sans', sans-serif;
-  color: #ccc;
-  weight:100;
-  font-size: 30px;
+  .feature1{
+    padding: 0px;
+  }
+
+  .feature1 {
+    padding: 100px 0px;
+    height: 700px;
+    margin: 0;
+    text-align: center;
+    background-color:#9C0643;
+  }
+
+  .feature2 {
+    padding: 100px 0px;
+    background-color: #20d2bb;
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+
+  .feature1 article p {
+    font-family: 'Ostrich';
+    font-size: 40px;
+
+    display:inline;
+    padding: 10px;
+    border-left: 4px solid white;
+  }
+
+  .slogan strong {
+    font-family: 'ostrich-strong';
+  }
+  .slogan {
+
+    margin-left: 100px;
+    font-family: 'Ostrich';
+    font-size: 80px;
+    color: white;
+    //border: 1px solid white;
+    display: inline;
+  }
+
+  #scrollDiv {
+    height: 2000px;
 }
 
+  .feature3 {
+    padding: 100px 0px;
+    margin: 0;
+    text-align: center;
+    background-color: #0261E8;
+}
+  .box{
 
-.content article {
-  padding: 100px 0px;
-
-  margin: 0 auto;
-  text-align: center;
-  background-color:#E80C36;
+    //background-image: url("../assets/purple.jpg");
+    width: 100%;
+    position: relative;
+    height: 700px;
+    background-color: #6B1C67;
+    //background-repeat: no-repeat;
+    background-size:auto, 600px;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
-.featuretwo{
-  background-color: #20d2bb;
-  height: 700px;
-  width: 100%;
-}
+  .frontal{
+    width: 870px;
+    height: 720px;
 
+    background-image: url("../assets/nexus.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    background-size: contain;
+    left: 30%;
+    top:-300px;
+    }
 
-#scrollDiv {
-  height: 2000px;
-}
-
-.box{
-  //background-image: url("../assets/purple.jpg");
-  width: 100%;
-  position: relative;
-  height: 700px;
-  background-color: #6B1C67;
-  //background-repeat: no-repeat;
-  background-size:auto, 600px;
-  background-position: top center;
-  background-attachment: fixed;
-
-  overflow: hidden;
-
-}
-
-.logo{
-  position: absolute;
-  height:375px;
-  width: 100%;
-//background-image: url("../assets/logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-top: -280px;
-  top: 50%;
-}
-
-
-.frontal{
-  width: 870px;
-  height: 720px;
-  margin-top: 10px;
-  background-image: url("../assets/nexus.png");
-  background-repeat: no-repeat;
-  background-position: right, bottom;
-  position: relative;
-  background-size: contain;
-  left:30%;
-
-}
-
-.back{
-  position: absolute;;
-  height: 870px;
-  width: 720px;
-  margin-top: 10px;
-background-position: right, bottom;
-  //background-color: red;
-  background-image: url("../assets/m8.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  top: 350px;
-  left:250px;
-}
+  .back{
+    position: absolute;
+    height: 760px;
+    width: 540px;
+    margin-top: 10px;
+    background-position: right;
+    //background-color: red;
+    background-image: url("../assets/HTCA9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 280px;
+    left:450px;
+  }
